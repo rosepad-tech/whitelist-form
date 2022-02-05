@@ -1,1 +1,1 @@
-web: yarn serve --port=$PORT
+web: npm start --port=$PORT
