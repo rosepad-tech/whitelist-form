@@ -7,6 +7,7 @@
     "lint": "eslint . --ext js,json",
     "lint:fix": "eslint . --fix --ext js,json",
     "serve": "static-server . --port 9011",
+    "start": "static-server . ",
     "test": "yarn lint"
   },
   "repository": {
