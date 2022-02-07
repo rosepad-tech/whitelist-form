@@ -940,10 +940,15 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"roseapesWhitelist","qid":"1","text"
         </div>
       </li>
       <li class="form-line" data-type="control_textbox" id="id_20">
-        <label class="form-label form-label-top form-label-auto" id="label_20" for="input_20"> Discord Handle </label>
+        <label class="form-label form-label-top form-label-auto" id="label_20" for="input_20"> 
+          Discord Handle 
+          <span class="form-required">
+            *
+          </span>
+        </label>
         <div id="cid_20" class="form-input-wide" data-layout="half">
           <span class="form-sub-label-container" style="vertical-align:top">
-            <input type="text" id="input_20" name="q20_discordHandle" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_20 sublabel_input_20" />
+            <input type="text" id="input_20" name="q20_discordHandle" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_20 sublabel_input_20" />
             <label class="form-sub-label" for="input_20" id="sublabel_input_20" style="min-height:13px" aria-hidden="false"> @TechApe </label>
           </span>
         </div>
